@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Toolbar styles. -->
+    <style name="AppBar.Default" parent="Widget.MaterialComponents.AppBarLayout.Primary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/light_blue</item>
+        <item name="elevation">@dimen/spacing_0</item>
+    </style>
+
+    <style name="Toolbar.Default" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:backgroundTint">@color/light_blue</item>
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="titleTextAppearance">@style/TextView.Toolbar</item>
+    </style>
+    <!-- End of Toolbar styles. -->
+
+    <!--  TextView Styles  -->
+    <style name="TextView.Bold" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.Toolbar" parent="TextView.Bold">
+        <item name="android:textSize">@dimen/font_20</item>
+    </style>
+    <!-- End of TextView styles -->
+
+    <!--  Rating Bar styles.  -->
+    <style name="RatingBar">
+        <item name="colorControlActivated">@color/gold</item>
+    </style>
+    <!--  End of Rating Bar styles.  -->
+
+    <!-- Chip styles. -->
+    <style name="Chip.Default" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipStrokeColor">@color/clouds</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+    <!-- End Chip styles. -->
+</resources>

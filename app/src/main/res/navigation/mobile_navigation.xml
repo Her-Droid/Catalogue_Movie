@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.freisia.cataloguemoviedb.ui.list.ListFragment"
+        android:label="@string/list"
+        tools:layout="@layout/fragment_list">
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_detail"
+            app:destination="@+id/navigation_detail"/>
+        <argument
+            android:name="myArg"
+            app:argType="integer"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="com.freisia.cataloguemoviedb.ui.detail.DetailFragment"
+        android:label="@string/detail"
+        tools:layout="@layout/fragment_detail">
+
+    </fragment>
+
+</navigation>

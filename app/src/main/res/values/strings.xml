@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Catalogue MovieDB</string>
+
+    <!-- Image content description   -->
+    <string name="cd_movie_background">Movie Picture</string>
+    <string name="view_item">View Item.</string>
+
+    <!-- Fragment Name   -->
+    <string name="list">List</string>
+    <string name="detail">Detail</string>
+
+    <!-- Not Found / Error   -->
+    <string name="oops..">Oops…</string>
+    <string name="no_movie_found">No movie found.</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="no_overview">No overview.</string>
+    <string name="no_review">No content review.</string>
+    <string name="no_trailer_found">No trailer found.</string>
+
+
+    <!--  Adapter  -->
+    <string name="vote_count">(%,d)</string>
+    <string name="title_text">%s - %s</string>
+
+    <!--  Detail  -->
+    <string name="rating_label">RATING</string>
+    <string name="summary_label">SUMMARY</string>
+    <string name="status_label">STATUS</string>
+    <string name="genre_label">GENRES</string>
+    <string name="trailer_label">TRAILER</string>
+    <string name="review_label">REVIEWS</string>
+    <string name="retry">Retry</string>
+    <string name="search">Search</string>
+    <string name="placeholder_rating">%d\%%</string>
+
+</resources>

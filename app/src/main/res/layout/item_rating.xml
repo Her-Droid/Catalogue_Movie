@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content">
+
+    <com.ramijemli.percentagechartview.PercentageChartView
+        android:id="@+id/rating"
+        android:layout_width="@dimen/spacing_75"
+        android:layout_height="@dimen/spacing_75"
+        android:layout_marginTop="@dimen/spacing_10"
+        app:pcv_animDuration="800"
+        app:pcv_animInterpolator="accelerate_decelerate"
+        app:pcv_backgroundBarColor="@color/grey"
+        app:pcv_backgroundBarThickness="@dimen/spacing_4"
+        app:pcv_mode="ring"
+        app:pcv_orientation="clockwise"
+        app:pcv_progress="0"
+        app:pcv_progressBarThickness="@dimen/spacing_4"
+        app:pcv_startAngle="270"
+        app:pcv_textColor="@color/light_blue"
+        app:pcv_textSize="@dimen/font_16"
+        app:pcv_textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_rating"
+        android:layout_width="@dimen/spacing_75"
+        android:layout_height="@dimen/spacing_75"
+        android:layout_marginTop="@dimen/spacing_10"
+        android:textStyle="bold"
+        android:textColor="@color/light_blue"
+        android:textSize="@dimen/font_16"
+        android:gravity="center"
+        tools:text="@string/placeholder_rating"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
